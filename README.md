@@ -38,7 +38,7 @@ Step 9: End.
 ```
 
 ## Output:
-```
+
 1. Tabular Comparison
 Scenario / Prompt Type	Zero-Shot	Few-Shot	Chain-of-Thought	Role-Based	Refined
 Explain AI	Generic, vague	Some structure	Detailed but verbose	Audience-specific	Clear, structured
@@ -59,7 +59,6 @@ Role-Based: High creativity and clarity (best for stories/explanations).
 Refined: Overall best performance with consistently high scores.
 
 <img width="1320" height="1229" alt="image" src="https://github.com/user-attachments/assets/2ed916c6-c16e-4985-b90c-6dc65fecffd1" />
-```
 
 ## Result:
 ```
