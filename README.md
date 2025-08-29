@@ -10,6 +10,7 @@ Analyze the quality, accuracy, and depth of the generated responses.
 
 ## Algorithm:
 
+```
 Step 1: Start.
 Step 2: Define prompting patterns to be tested:
     a. Zero-Shot Prompting
@@ -34,9 +35,10 @@ Step 7: Identify best performing prompt type for each scenario.
 Step 8: Summarize findings.
 
 Step 9: End.
+```
 
 ## Output:
-
+```
 1. Tabular Comparison
 Scenario / Prompt Type	Zero-Shot	Few-Shot	Chain-of-Thought	Role-Based	Refined
 Explain AI	Generic, vague	Some structure	Detailed but verbose	Audience-specific	Clear, structured
@@ -57,10 +59,10 @@ Role-Based: High creativity and clarity (best for stories/explanations).
 Refined: Overall best performance with consistently high scores.
 
 <img width="1320" height="1229" alt="image" src="https://github.com/user-attachments/assets/2ed916c6-c16e-4985-b90c-6dc65fecffd1" />
-
+```
 
 ## Result:
-
+```
 Zero-Shot Prompting is quick but produces shallow and generic answers.
 
 Few-Shot Prompting improves structure when examples are available, but remains average in performance.
@@ -68,5 +70,5 @@ Few-Shot Prompting improves structure when examples are available, but remains a
 Chain-of-Thought Prompting achieves highest accuracy and depth, making it best for reasoning and problem-solving.
 
 Role-Based Prompting delivers creative, contextual, and engaging outputs, suitable for teaching and storytelling.
-
+```
 Refined Prompting provides the most balanced, high-quality outputs across all test scenarios, making it the most reliable overall.
