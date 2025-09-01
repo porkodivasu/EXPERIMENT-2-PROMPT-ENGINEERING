@@ -1,48 +1,5 @@
 # EXP-2-PROMPT-ENGINEERING-
 
-Comparative Analysis of Prompting Patterns: A Detailed Report 
-
-Executive Summary 
-
-This report provides a comprehensive comparative analysis of various prompt engineering patterns and their impact on the performance of Large Language Models (LLMs). Through a series of controlled experiments, we test how different prompting techniques, from basic to advanced, affect the quality, accuracy, and depth of generated responses. The findings demonstrate that a well-crafted, structured prompt is critical for unlocking an LLM's full potential, especially for complex reasoning, multi-step problem-solving, and tasks requiring factual accuracy. 
-
- 
-
-Introduction 
-
- Background 
-
-The rise of large language models has transformed the landscape of AI-driven applications. While LLMs are incredibly powerful, their performance is highly dependent on the input they receive. Prompt engineering is the art and science of designing effective prompts to guide models toward desired outputs. This report investigates how different prompting patterns influence an LLM's response quality. 
-
-Objective 
-
-The primary objective of this experiment is to: 
-
-Define and categorize different prompting patterns. 
-
-Design and execute test scenarios to compare these patterns. 
-
-Analyze the generated responses based on pre-defined metrics: quality, accuracy, and depth. 
-
-Present a clear, data-driven conclusion on which patterns are most effective for specific types of tasks. 
-
-Prompting Patterns: A Taxonomy 
-
-This section defines the key prompting patterns we will test. We've grouped them into two main categories: Basic and Advanced. 
-
- Basic Prompting Patterns 
-
-A. Zero-Shot Prompting (Unstructured): The most fundamental method. The model is given a broad, direct instruction without any examples. It relies entirely on its pre-trained knowledge. 
-
-B. Basic Refined Prompting (Structured): A more refined version of zero-shot. The prompt includes clearer instructions, context, and a specified format (e.g., "Summarize the following text in three bullet points."). 
-
-Advanced Prompting Patterns 
-
-C. Few-Shot Prompting: The prompt includes a small number of examples (shots) of the desired input/output format. The model learns the pattern and applies it to a new, unseen input. 
-
-D. Chain-of-Thought (CoT) Prompting: A technique that encourages the model to break down a complex problem into a sequence of intermediate steps. This can be done by simply adding a phrase like "Let's think step by step" (Zero-Shot CoT) or by providing examples with the reasoning steps included (Few-Shot CoT). 
-
-E. Role-Playing/Persona Prompting: The prompt assigns a specific role or persona to the model (e.g., "Act as a senior software engineer..."). This influences the tone, style, and content of the response. 
 
 F. Generated Knowledge Prompting: A two-part prompt. The first part asks the model to generate relevant facts or a knowledge base, and the second part uses that generated information to answer the main query. 
 
